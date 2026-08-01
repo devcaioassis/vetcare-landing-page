@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VetCare - Cuidado Animal</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
@@ -24,15 +26,16 @@
     <main>
         <section id="inicio" class="hero">
             <div class="hero-container">
-            
+
                 <div class="hero-texto">
-                    <h2>Cuidado e amor para quem você ama.</h2>
-                    <p>Atendimento veterinário completo, com excelência, carinho e tecnologia para o bem-estar do seu pet, do check-up de rotina às cirurgias mais delicadas.</p>
+                    <h2>O cuidado que seu pet precisa, com o amor que ele merece.</h2>
+                    <p>Atendimento veterinário completo e humanizado. Garantimos a melhor qualidade de vida ao seu
+                        companheiro, da prevenção à alta complexidade</p>
                     <button id="btn-cta" class="botao-verde">Saiba Mais</button>
                 </div>
-                
+
                 <div class="hero-imagem">
-                    <img src="./images/cao_gato.jpg" alt="Cachorro e Gato sorrindo juntos">
+                    <img src="./images/cao_gato.png" alt="Cachorro e Gato sorrindo juntos">
                 </div>
             </div>
         </section>
@@ -40,14 +43,15 @@
         <section id="servicos">
             <h2>Nossos Serviços</h2>
             <div class="grid-servicos">
-        
+
                 <div class="card">
                     <div class="card-imagem">
-                        <p>imagem</p>
+                        <img src="./images/consulta.jpg" alt="Veterinaria atendendo um Cachorro na consulta">
                     </div>
                     <div class="card-conteudo">
                         <h3>Consultas</h3>
-                        <p>Avaliação clínica completa, com anamnese detalhada e acompanhamento contínuo da saúde do seu pet.</p>
+                        <p>Avaliação clínica completa, com anamnese detalhada e acompanhamento contínuo da saúde do seu
+                            pet.</p>
                         <div class="tags">
                             <span>Check-up</span>
                             <span>Rotina</span>
@@ -56,15 +60,17 @@
                     </div>
                 </div>
 
-        
+
                 <div class="card">
                     <div class="card-imagem">
-                        <p>imagem</p>
-        
+                        <img src="./images/vacina.jpg" alt="Veterinaria aplicando vacina em um cachorro">
+
+
                     </div>
                     <div class="card-conteudo">
                         <h3>Vacinas</h3>
-                        <p>Calendário vacinal completo para cães e gatos, com orientação sobre reforços e prazos ideais.</p>
+                        <p>Calendário vacinal completo para cães e gatos, com orientação sobre reforços e prazos ideais.
+                        </p>
                         <div class="tags">
                             <span>V10 / V4</span>
                             <span>Antirrábica</span>
@@ -73,14 +79,16 @@
                     </div>
                 </div>
 
-              
+
                 <div class="card">
                     <div class="card-imagem">
-                        <p>imagem</p>
+                        <img src="./images/exames.png" alt="Veterinaria examinando um gato">
+
                     </div>
                     <div class="card-conteudo">
                         <h3>Exames</h3>
-                        <p>Exames laboratoriais e de imagem para diagnósticos precisos e tratamentos mais assertivos.</p>
+                        <p>Exames laboratoriais e de imagem para diagnósticos precisos e tratamentos mais assertivos.
+                        </p>
                         <div class="tags">
                             <span>Sangue</span>
                             <span>Raio-X</span>
@@ -91,17 +99,18 @@
             </div>
         </section>
 
-        
+
         <section id="sobre">
             <h2>Sobre a VetCare</h2>
-            <p>Somos uma equipe apaixonada por animais, oferecendo uma infraestrutura completa para diagnósticos, exames e cirurgias com total segurança para o seu melhor amigo.</p>
+            <p>Somos uma equipe apaixonada por animais, oferecendo uma infraestrutura completa para diagnósticos, exames
+                e cirurgias com total segurança para o seu melhor amigo.</p>
         </section>
 
-        
+
         <section id="contato">
             <h2>Fale Conosco</h2>
-            
-           
+
+
             <form id="form-contato">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" required>
@@ -109,7 +118,7 @@
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" required>
 
-           
+
                 <label for="cep">CEP:</label>
                 <input type="text" id="cep" placeholder="Apenas números (8 dígitos)" maxlength="8" required>
 
@@ -122,7 +131,7 @@
                 <button type="submit">Enviar Mensagem</button>
             </form>
 
-        
+
             <div id="mensagem-sucesso" class="sucesso-card" style="display: none;">
                 <h3>Agendamento confirmado!</h3>
                 <p>Em breve entraremos em contato para confirmar o horário do seu pet.</p>
@@ -131,31 +140,65 @@
         </section>
     </main>
 
-   
+
     <footer>
-      
         <div class="footer-conteudo">
-            <img src="logo.png" alt="Logotipo VetCare" class="logo-footer">
-            
+            <img src="./images/logo.png" alt="Logotipo VetCare" class="logo-footer">
+
             <p class="slogan-footer">Cuidado e carinho para o seu pet, a um clique de distância.</p>
-            
+
             <div class="footer-contatos">
-                <p><span>📍</span> Rua dos Pets, 123 - Goiânia, GO</p>
-                <p><span>📞</span> (62) 99999-9999</p>
-                <p><span>✉️</span>vetcare@email.com</p>
+
+                <p>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </span>
+                    Rua do doguinho, 123 - Goiânia, GO
+                </p>
+
+
+                <p>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                    </span>
+                    (62) 99999-9999
+                </p>
+
+
+                <p>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </span>
+                    vetcare@email.com
+                </p>
             </div>
         </div>
 
-      
         <div class="footer-direitos">
-         
             <p>&copy; 2026 VetCare. Todos os direitos reservados.</p>
         </div>
     </footer>
 
+
     <script src="script.js"></script>
 </body>
+
 </html>
-    </main>
+</main>
 </body>
+
 </html>
