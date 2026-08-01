@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetCare - Cuidado Animal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#inicio" class="logo">
+            <img src="./images/logo.png" alt="Logotipo Oficial VetCare">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-container">
+            
+                <div class="hero-texto">
+                    <h2>Cuidado e amor para quem você ama.</h2>
+                    <p>Atendimento veterinário completo, com excelência, carinho e tecnologia para o bem-estar do seu pet, do check-up de rotina às cirurgias mais delicadas.</p>
+                    <button id="btn-cta" class="botao-verde">Saiba Mais</button>
+                </div>
+                
+                <div class="hero-imagem">
+                    <img src="./images/cao_gato.jpg" alt="Cachorro e Gato sorrindo juntos">
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <div class="grid-servicos">
+        
+                <div class="card">
+                    <div class="card-imagem">
+                        <p>imagem</p>
+                    </div>
+                    <div class="card-conteudo">
+                        <h3>Consultas</h3>
+                        <p>Avaliação clínica completa, com anamnese detalhada e acompanhamento contínuo da saúde do seu pet.</p>
+                        <div class="tags">
+                            <span>Check-up</span>
+                            <span>Rotina</span>
+                            <span>Prevenção</span>
+                        </div>
+                    </div>
+                </div>
+
+        
+                <div class="card">
+                    <div class="card-imagem">
+                        <p>imagem</p>
+        
+                    </div>
+                    <div class="card-conteudo">
+                        <h3>Vacinas</h3>
+                        <p>Calendário vacinal completo para cães e gatos, com orientação sobre reforços e prazos ideais.</p>
+                        <div class="tags">
+                            <span>V10 / V4</span>
+                            <span>Antirrábica</span>
+                            <span>Giárdia</span>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="card">
+                    <div class="card-imagem">
+                        <p>imagem</p>
+                    </div>
+                    <div class="card-conteudo">
+                        <h3>Exames</h3>
+                        <p>Exames laboratoriais e de imagem para diagnósticos precisos e tratamentos mais assertivos.</p>
+                        <div class="tags">
+                            <span>Sangue</span>
+                            <span>Raio-X</span>
+                            <span>Ultrassom</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="sobre">
+            <h2>Sobre a VetCare</h2>
+            <p>Somos uma equipe apaixonada por animais, oferecendo uma infraestrutura completa para diagnósticos, exames e cirurgias com total segurança para o seu melhor amigo.</p>
+        </section>
+
+        
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            
+           
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+           
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" placeholder="Apenas números (8 dígitos)" maxlength="8" required>
+
+                <label for="endereco">Endereço Completo:</label>
+                <input type="text" id="endereco" readonly>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+
+        
+            <div id="mensagem-sucesso" class="sucesso-card" style="display: none;">
+                <h3>Agendamento confirmado!</h3>
+                <p>Em breve entraremos em contato para confirmar o horário do seu pet.</p>
+                <button type="button" id="btn-novo-agendamento" class="botao-outline">Fazer novo agendamento</button>
+            </div>
+        </section>
+    </main>
+
+   
+    <footer>
+      
+        <div class="footer-conteudo">
+            <img src="logo.png" alt="Logotipo VetCare" class="logo-footer">
+            
+            <p class="slogan-footer">Cuidado e carinho para o seu pet, a um clique de distância.</p>
+            
+            <div class="footer-contatos">
+                <p><span>📍</span> Rua dos Pets, 123 - Goiânia, GO</p>
+                <p><span>📞</span> (62) 99999-9999</p>
+                <p><span>✉️</span>vetcare@email.com</p>
+            </div>
+        </div>
+
+      
+        <div class="footer-direitos">
+         
+            <p>&copy; 2026 VetCare. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    </main>
+</body>
+</html>
