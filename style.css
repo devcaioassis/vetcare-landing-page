@@ -286,6 +286,47 @@ header a:hover {
     background-color: var(--cor-primaria);
 }
 
+.sucesso-card {
+    background-color: var(--branco); 
+    padding: 40px 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); 
+    max-width: 500px; 
+    margin: 30px auto 0 auto; 
+    text-align: center; 
+}
+
+
+.sucesso-card h3 {
+    color: var(--cor-primaria);
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+
+.sucesso-card p {
+    color: var(--cor-texto);
+    margin-bottom: 30px;
+}
+
+
+.botao-novoAgendamento {
+    background-color: transparent; 
+    color: var(--cor-destaque);
+    border: 2px solid var(--cor-destaque); 
+    padding: 12px 25px;
+    border-radius: 30px; 
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+
+
+.botao-novoAgendamento:hover {
+    background-color: var(--cor-destaque);
+    color: var(--branco);
+}
 
 footer {
     background-color: var(--cor-primaria); 
@@ -341,5 +382,46 @@ footer {
     font-size: 0.8rem;
     color: var(--cor-secundaria); 
     opacity: 0.7; 
+}
+
+@media (max-width: 800px) {
+    
+    
+    header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .hero-container {
+        flex-direction: column; 
+        text-align: center;
+    }
+    
+    .hero-texto {
+        text-align: center; 
+    }
+    
+    .hero-texto h2 {
+        font-size: 2.2rem; 
+    }
+
+    
+    #sobre, #servicos, #contato {
+        padding: 50px 15px; 
+    }
+
+    #sobre h2, #servicos h2, #contato h2 {
+        font-size: 1.8rem; 
+    }
+
+    #form-contato {
+        width: 100%; /
+    }
+
+   
+    .footer-conteudo {
+        padding: 30px 15px 20px 15px;
+    }
 }
 
